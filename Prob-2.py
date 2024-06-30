@@ -5,7 +5,7 @@ def Fib_in_even(lim):
             yield a
         a, b = b, a + b
 
-# Create a list from the generator and print the sum of the list
+# Create a list from the generator and then print the sum of the list
 print(sum(Fib_in_even(4000000)))
 
 ## answer:
