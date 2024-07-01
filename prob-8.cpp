@@ -15,5 +15,6 @@ long long greatest(string num)
         if (greatest_product < product)
             greatest_product = product;
     }
+    /* we return the greatest product below*/
     return greatest_product;
 }
