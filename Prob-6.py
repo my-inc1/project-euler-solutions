@@ -21,4 +21,5 @@ def identity(i):
 sum_of_integers = summaTion(1, 100, identity)
 squaresumOf = sum_of_integers ** 2
 
+##answer
 print(squaresumOf - res_sumOfSquares)
