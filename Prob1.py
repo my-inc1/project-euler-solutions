@@ -3,7 +3,7 @@
 #Setting up an empty array to store the numbers
 nums = []
 
-#loop through all numbers between 1 and 1000 
+#loop through all numbers between 1 and 999, 1000 is not included 
 for i in range(1, 1000):
     #find numbers which are multiples of 5 or 3 using the modulo function
     if i % 5 == 0 or i % 3 == 0:
