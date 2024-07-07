@@ -1,5 +1,6 @@
 ## Q: largest palindrome that can be made from two 3-digit nums
 ## A palindrome is a word, sentence, verse, or even number that reads the same backward or forward.
+## eg: Mum, 2002 etc.....
 
 def is_palindrome(num):
     return str(num) == str(num)[::-1]
