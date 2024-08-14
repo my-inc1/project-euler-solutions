@@ -15,7 +15,7 @@ def largest_prime_factor(n):
         return True
 
     largest_factor = None
-    # Check for factor of 2 first
+    # Check for a factor of 2 first
     while n % 2 == 0:
         largest_factor = 2
         n //= 2
