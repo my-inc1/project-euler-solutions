@@ -1,12 +1,11 @@
-def Fib_in_even(lim):
-    a, b = 0, 1
-    while a < lim:
-        if not a % 2:
-            yield a
-        a, b = b, a + b
+def even_fib_sum(limit):
+    a, b = 0, 2  # Start with the first two even Fibonacci numbers (0 and 2)
+    while a <= limit:
+        yield a
+        a, b = b, 4 * b + a  # Generate the next even Fibonacci number directly
 
-# Create a list from the generator and then print the sum of the list
-print(sum(Fib_in_even(4000000)))
+# Calculate the sum of even Fibonacci numbers up to the limit
+print(sum(even_fib_sum(4000000)))
 
 ## answer:
 4613732
